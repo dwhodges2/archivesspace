@@ -1,0 +1,2047 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+nl:
+  brand:
+    title: ArchivesSpace Publieke Interface
+    title_link_text: Terug naar de ArchivesSpace homepage
+    home: Home
+    welcome_head: Welkom bij ArchivesSpace
+    welcome_message: |
+                     <p>Search across our collecties, digitale materialen, en more.</p>
+
+    welcome_search_label: "Vind wat je zoekt:"
+    welcome_page_title: ArchivesSpace Publieke Interface
+
+  actions:
+    search: Zoeken
+    search_header: Zoeken binnen archieven
+    search_within: zoeken binnen resultaten
+    search_in: "Zoek %{type}"
+    new_search: Nieuwe zoekopdracht
+    refine_search: Zoeken verfijnen
+    browse: Bladeren
+    show_advanced_search: Toon geavanceerd zoeken
+    hide_advanced_search: Verberg geavanceerd zoeken
+    backup:  Ga terug naar vorige pagina
+    backup_abbr: Ga terug
+    cite: Aanhaling
+    bookmark: Bladwijzer
+    request: Verzoek
+    print: Print
+    print-generating: Genererend
+    collection_overview: Collectie-overzicht
+    hierarch: Collectie-organisatie
+    numeric: Containerinventaris
+    detailed: Gedetailleerde inhoud
+    record_details: Gegevensdetails
+    clipboard: Kopiëren naar clipboard
+    search_add_row: Voeg een zoekregel in
+    search_remove_row: Verwijder de rij boven
+    staff_link: Alleen personeel
+
+  page_actions: Pagina acties
+
+  request:
+    email_header: Bedankt voor uw verzoek
+    required: Vereist
+    user_name: Uw naam
+    user_email: Uw e-mailadres
+    date: Verwachte aankomstdatum
+    note: Bericht naar het personeel
+    visit: "Stuur een verzoek voor een bezoek  %{repo_name} om te bekijken <strong>%{archival_object}</strong>"
+    submit: Verzend verzoek
+    submitted: Dank u, uw verzoek is verzonden. U ontvangt binnenkort een e-mail met een kopie van uw verzoek.
+    errors:
+      name: Voer a.u.b. uw naam in
+      email: Voer a.u.b. een geldig e-mailadres in
+    email:
+      subject: " Verzoekt omtrent %{title }"
+
+  search-button:
+    label: Zoeken
+  search-limit: "Beperken tot %{limiet}"
+  search-limiting: "beperkt tot %{limiet}"
+  search-limits:
+    all: alle gegevenstypen
+    repository: bewaarplaats
+    repositories: bewaarplaatsen
+    resource: collecties
+    resources: collecties
+    digital: digitale materialen
+    digital_object: digitale materialen
+    objects: archief- of digitale gegevens
+    subject: Onderwerp
+    agent: content ontwikkelaar
+    agents: content ontwikkelaars
+  search-field: Zoek in veld
+  searched-field: "zoeken %{field}"
+
+  pagination:
+    first: Eerste
+    last: Laatste
+    previous: "&#171;"
+    next: "&#187;"
+    summary_prefix: Wordt getoond
+    summary_offset_connector: "-"
+    summary_total_connector: van
+    summary_suffix: Resultaten
+    page_prefix: pagina
+    page_connector: van
+
+  search_results:
+    page_title: " %{count} Resultaten gevonden"
+    results_head: "Wordt getoond  %{type}: %{start} - %{end} van %{total}"
+    results: Resultaten
+    head_prefix: Gevonden
+    head_suffix: Resultaten
+    searching: Zoekend
+    search_for: "zoeken  %{type} waar %{conditions}"
+    keyword_contain: "<strong>keyword(s)</strong>: <span class='searchterm'>%{kw}</span>"
+    title_contain: "the <strong>title</strong> contains  <span class='searchterm'>%{kw}</span>"
+    notes_contain: "the <strong>note</strong> contains  <span class='searchterm'>%{kw}</span>"
+    creators_text_contain: "the <strong>creator</strong> contains <span class='searchterm'>%{kw}</span>"
+    subjects_text_contain: "the <strong>subject</strong> contains <span class='searchterm'>%{kw}</span>"
+    identifier_contain: "the <strong>identifier</strong> contains <span class='searchterm'>%{kw}</span>"
+    four_part_id_contain: "the <strong>identifier</strong> contains <span class='searchterm'>%{kw}</span>"
+    in_repository: " in <strong>%{name}</strong>"
+    year_range: " from <strong>%{from_year}</strong> to <strong>%{to_year}</strong>"
+    anything: "*"
+    search_term: Zoekterm
+    title: Alle gegevens
+    error: Uw zoekopdracht kon niet worden voltooid vanwege een onverwachte fout
+    no_results: Geen gegevens gevonden
+    no_results_prefix: Er zijn geen zoekresultaten voor
+    result_type: Gegevenstype
+    resultaat_title: Titel
+    filter_by: Filter op
+    filtered_by: Gefilterd op
+    remove_filter: Verwijder deze filter
+    modified: Laatst gewijzigd
+    created: Gecreëerd 
+    text_placeholder: Filter op tekst
+    clear_all: Wis alle
+    created: Gecreëerd
+    modified: Gewijzigd
+    component_switch: Betrek componenten
+    more_facets: meer
+    fewer_facets: minder
+    op:
+      AND: en
+      OR:  of
+      NOT:  en niet
+    op_first_row:
+      NOT: niet
+    filter:
+      head: Filter resultaten
+      add: Additionele filters
+      form: Zoeken binnen resultaten
+      show_fewer: Toon minder
+      show_more: Toon meer
+      query: Tekst
+      subjects: Onderwerp
+      primary_type: Type
+      repository: Bewaarplaats
+      used_within_published_repository: Bewaarplaats
+      creators: Ontwikkelaar
+      fullrecord: Trefwoord
+      subjects_text: Onderwerp
+      title: Titel
+      creators_text: Ontwikkelaar
+      scope: Toepassingsgebied
+      notes: Notities
+      identifier: Identificator
+      source: Bron
+      published_agents: Namen
+      agents_text: Namen
+      classification_uri: Classificatie
+      linked_agent_roles: Rol
+      from_year: Van jaar
+      to_year: Tot jaar
+      years: Jaren
+      from: Van
+      to: Tot
+      years_include: Jaren om mee te nemen
+      year_now: Nu
+      year_begin: het begin
+      from_to: "Jaren: %{begin} tot %{eind}"
+      child_container_u_sstr: Kind container
+      grand_child_container_u_sstr: Kleinkind container
+      type_enum_s: Type
+      published_series_title_u_sstr: Serie
+      instance_type_enum_s: Geval type
+
+  search_sorting:
+    sort_by: "Sorteren op:"
+    sort: Sorteren
+    and: "en:"
+    asc: (oplopend)
+    desc: (aflopend)
+    relevance: Relevantie
+    title_sort: Titel
+    user_mtime: Gewijzigd
+    primary_type: Gegevenstype
+    processing_priority: Prioriteit
+    processing_status: Status
+    parent_id: Gegevenstype
+    create_time: Gecreëerd 
+    authority_id: Bevoegdheid ID
+    source: Bron
+    rules: Regels
+    outcome: Resultaat
+    event_type: Type
+    identifier: identificator
+    select: Selecteer
+    year_sort: Jaar
+    sorting: "%{type} %{direction}"
+    classification_identifier: Identificator
+
+  inherit:
+    inherited: "Van het %{level}:"
+    collection: collectie
+    series: Serie
+    sub-series: Sub-Serie
+    class: Klasse
+    file: Bestand
+    fonds: Fonds
+    item: Item
+    otherlevel: Ander niveau
+    recordgrp: Gegevensgroep
+    subfonds: Sub-Fonds
+    subgrp: SubGroep
+
+  errors:
+    error_404: "%{type} Gegevens niet gevonden"
+    error_404_message: "Het %{type} gegeven dat u probeert te benaderen bestaat niet of kan zijn verwijderd."
+    backend_down:Niet mogelijk om te verbinden met database
+    backend_down_message: ArchivesSpace ondervindt momenteel technische problemen. Onze excuses voor het ongemak. Probeert u het later a.u.b. nog eens.
+    unexpected_error: Aan uw verzoek kon niet worden voldaan vanwege een onverwachte fout
+
+  boolean:
+    "true": "Ja"
+    "false": "Nee"
+
+  navbar:
+    search_placeholder: Voer uw zoektermen in
+    search_all: Alle gegevens
+    error_no_term: Geen zoekterm(en) ingevoerd.
+    search_terms_results: "Uw zoekopdracht voor  {{search_terms}} leverde {{number}} resultaten op"
+
+  internal_links:
+    main: Belangrijkste inhoud
+    filter: Filter resultaten
+    collection: Collectie organisatie
+    search_collection: Zoeken binnen collectie
+
+  accordion:
+    expand: Alles uitklappen
+    collapse: Alles Inklappen
+
+  advanced_search:
+    operator_label: Zoek-operator
+    operator:
+      AND: En
+      OR: Of
+      NOT: Niet
+    button_text: Zoeken
+    reset: Wissen
+    nav_switcher:
+      show: Toon geavanceerd
+      hide: Verberg geavanceerd
+    index_switcher:
+      show: Toon geavanceerd zoeken
+      hide: Verberg geavanceerd zoeken
+
+  contains: "bevat %{count} %{type}"
+  found: "Gevonden in %{count} %{type}"
+  coll_obj:
+    _singular: Collection of gegevens
+    _plural: collecties en/of gegevens
+
+  # I don't have a place for these, so I'm putting them here
+  scope_note : Notitie toepassingsgebied
+  multiple_containers: Meerdere Containers
+  # adding the inherited title to the display string
+  inherited: "%{title}, %{display}"
+  extent_number_type: "%{number} %{type}"
+  extent_phys_details: " : %{deets}"
+  extent_dims: " ; %{dimensions}"
+
+  external_docs: Externe documenten
+  more_about: Meer over 
+  listing: Notering
+  list: "%{type} Lijst"
+  cont_arr: Collectie organisatie
+  dig_cont_arr: Digitaal object organisatie
+  subgroups: Subgroepen
+  accessed: Geopend
+  containers: Fysieke opslaginformatie
+  related_accessions: Gerelateerd onverwerkt materiaal
+  related_resources: Gerelateerde collecties
+  linked_instances: Gekoppelde gegevens
+  linked_digital_objects: Digitaal Materiaal
+
+  accession:
+   _singular: Niet verwerkt
+   _plural: Niet verwerkte materialen
+   _public:
+      section:
+        summary: Samenvatting
+        acquisition_type: Acquisitie Type
+        provenance: Herkomst
+        access_restrictions: Toegangsbeperkingen
+        access_restrictions_apply: Toegangsbeperkingen gelden
+        use_restrictions: Gebruiksrestricties
+        use_restrictions_apply: Gebruiksrestricties gelden
+        content_description: Omschrijving inhoud 
+        inventory: Inventaris
+      related_accessions:
+       accessions: Gerelateerd onverwerkt materiaal
+       deaccessions: Afgestoten materiaal
+
+  archival_object:
+    _singular: Archiefverslag
+    _plural: Archiefgegevens
+    _public:
+      section:
+        components: componenten
+        summary: Samenvatting
+      messages:
+        no_components: Archiefverslag heeft geen componenten
+      header:
+       dates: Datums
+       lang: Taal
+       physdesc: Fysieke omschrijving
+       storage: Container Informatie
+       access: Condities inzake toegang
+       use: Condities inzake gebruik
+       component: Component
+       ref_id: Referentie Identificator
+
+  archive:
+    _singular: Het archief
+    _plural: De archieven
+
+  repository:
+    _singular: Bewaarplaats
+    _plural: Bewaarplaatsen
+    what: Wat bevindt zich in deze bewaarplaats?
+    details: Bewaarplaats Details
+    part: Onderdeel van de
+
+  context: Gevonden in
+  context_delimiter: "/"
+  bulk:
+     _singular: "Meerderheid van het materiaal gevonden op %{dates}"
+     _plural: "Meerderheid van het materiaal gevonden binnen %{dates}"
+
+  resource:
+    _singular: Collectie
+    _plural: Collecties
+    _public:
+      identifier: Identificator
+      extent: Omvang
+      dates: Datums
+      lang: Taal
+      digital_object: Digitaal object
+      physdesc: Fysieke omschrijving
+      storage: Container informatie
+      access: Condities inzake toegang
+      use: Condities inzake gebruik
+      additional: Toegevoegde Omschrijving
+      section:
+        components: Componenten
+        summary: Samenvatting
+      messages:
+        no_components: Bron heeft geen componenten
+      finding_aid:
+        head: Inventaris & Administratieve informatie
+        title: Titel
+        subtitle: Ondertitel
+        status: Status
+        author: Auteur
+        date:  Datum
+        description_rules: Regels voor omschrijving
+        identifier: Identificator
+        language: Taal omschrijving
+        sponsor: Sponsor
+        edition_statement: Editie statement
+        series_statement: Serie statement
+        note: Note
+        revision: Revisie van statements
+      related_accessions:
+        accessions: Toegang gegevens
+        deaccessions: Afstoting gegevens
+
+  top_container:
+    _singular: Container
+    _plural: Containers
+
+  related_resource:
+    _singular: gerelateerde collectie
+    _plural: gerelateerde collecties
+
+  digital_object: &digital_object_attributes
+    _singular: Digitaal gegeven
+    _plural: Digitale materialen
+    _public:
+      thumbnail: Thumbnail
+      link: Koppelen met digitaal object
+      badge_label: Digitaal %{level}
+      section:
+        components: Componenten
+        summary: Samenvatting
+      messages:
+        no_components: Digitaal object heeft geen componenten
+
+  digital_object_component:
+    _public:
+      section:
+        components: Componenten
+        summary: Samenvatting
+      messages:
+        no_components: Digitaal object heeft geen componenten
+
+  subject:
+    _singular: Onderwerp
+    _plural: Onderwerpen
+    used_within: Gebruikt binnen
+
+  component:
+    _singular: Component
+    _plural: Componenten
+
+  unprocessed: Onverwerkt materiaal
+
+  classification:
+    _singular: Verslag groep
+    _plural: Verslag groepen
+    creator: Ontwikkelaar
+    identifier_separator: "."
+    _public:
+      actions:
+        show_subgroups: Toon subgroepen
+
+  classification_term:
+    _singular: Record Group Term
+    _plural: Record Group Terms
+    identifier_separator: "/"
+
+  all_agents: Namen
+
+  an_agent: Naam
+
+  pui_agent:
+    _singular: Naam
+    _plural:  Namen
+    related: Gerelateerde namen
+    creator: Ontwikkelaar
+  record:
+    _singular: Gegeven
+    _plural: Gegevens
+
+  record_group:
+    _singular: Record Group
+    _plural: Record Groups
+
+  agent:
+    _singular: Naam
+    _plural: Namen
+    _public:
+      section:
+        summary: Samenvatting
+        other_names: Namen formulieren
+        other_names_preamble: "Ook bekend onder de volgende namen:"
+        related_agents: Gerelateerde namen
+        dates_of_existence: Datums
+        related_agent_description: Omschrijving
+        related_agent_dates: Datums
+
+  agent_person:
+    _singular: persoon
+
+  agent_family:
+    _singular: familie
+
+  agent_corporate_entity:
+    _singular: organisatie
+
+  agent_software:
+    _singular: Software
+
+  components:
+    expand: Uitklappen
+    collapse: Inklappen
+
+  instance:
+    _public:
+      link_to_digital_object: Link to Record
+
+  record_tree:
+    record_tree_tab: Record Tree
+    search_tab: Search Components
+
+  location: Location
+
+  description: About
+
+  contact: Contact
+
+  hours: Hours
+
+  number_of: "Number of %{type}:"
+
+  parent_inst: Parent Institution
+
+  email: Send email
+
+  fax: Fax
+
+#  The following are the enums for things like notes type, etc.
+
+  enumerations:
+    linked_event_archival_record_roles:
+      source: Bron
+      outcome: Resultaat
+      transfer: Overdracht
+    linked_agent_archival_record_relators:
+      abr: Abridger
+      act: Acteur
+      adi: Kunstleider
+      adp: Adapter
+      anl: Analist
+      anm: Animator
+      ann: Annotator
+      ape: Gedaagde
+      apl: Verzoeker
+      app: Aanvrager
+      arc: Architect
+      arr: Arrangeur
+      acp: Kunstkopieerder
+      art: Artiest
+      ard: Artistiek leider
+      asg: Rechtverkrijgende
+      asn: Bijbehorende naam
+      att: Toegekende naam
+      auc: Veilingmeester
+      aut: Auteur
+      aqt: Auteur in offertes of tekst uittreksels
+      aft: Auteur van nawoord, colofon, enz.
+      aud: Auteur van dialoog
+      aui: Auteur van introductie, enz.
+      aus: Auteur van scripts, enz.
+      ato: Ondertekenaar
+      ant: Bibliografisch antecedent
+      bnd: Binder
+      bdd: Binding ontwerper
+      blw: Schrijver van aanbevelingsteksten
+      bkd: Boekontwerper
+      bkp: Boekenproducent
+      bjd: Boekomslag ontwerper 
+      bpd: Boekomslag ontwerper
+      bsl: Boekverkoper
+      brl: Braille reliëfpers
+      brd: Omroeper
+      cll: Kalligraaf
+      ctg: Cartograaf
+      cas: Gieter
+      cns: Censor
+      chr: Choreograaf
+      cng: Cinematograaf 
+      cli: Cliënt
+      cor: Collectieregistrator
+      clb: Medewerker
+      col: Collector
+      clt: Collotypist
+      clr: Kleurenexpert
+      cmm: Commentator
+      cwt: Commentator voor geschreven tekst
+      com: Samensteller
+      cpl: Klager
+      cpt: Klager-verzoeker
+      cpe: Klager-gedaagde
+      cmp: Componist
+      cmt: Letterzetter
+      ccp: Bedenker
+      cnd: Dirigent/conducteur
+      con: Conservator
+      csl: Consultant
+      csp: Consultant voor een project
+      cos: Kandidaat
+      cot: Kandidaat-verzoeker
+      coe: Kandidaat-gedaagde
+      cts: Betwiste
+      ctt: Betwiste-verzoeker
+      cte: Betwiste-gedaagde
+      ctr: Contractor
+      ctb: Contribuant
+      cpc: Auteursrecht pretendent
+      cph: Auteursrechthebbende
+      crr: Corrector
+      crp: Correspondent
+      cst: Kostuumontwerper
+      cou: Rechterlijke instantie
+      crt: Rechtbankverslaggever
+      cov: Omslagontwerper
+      cre: Ontwikkelaar
+      cur: Curator van een tentoonstelling
+      dnc: Danser
+      dtc: Gegevensbijdrager
+      dtm: Gegevensmanager
+      dte: Persoon aan wie is opgedragen
+      dto: Persoon door wie is opgedragen
+      dfd: Beklaagde
+      dft: Beklaagde-verzoeker
+      dfe: Beklaagde-gedaagde
+      dgg: Diplomaverlener
+      dgs: Diploma toezichthouder
+      dln: Begrenzer
+      dpc: Afgebeeld
+      dpt: Bewaargever
+      dsr: Ontwerper
+      drt: Directeur/regisseur
+      dis: Dissertant
+      dbp: Distributie locatie
+      dst: Distributeur
+      dnr: Donor
+      drm: Tekenaar
+      dub: Discutabele auteur
+      edt: Redacteur
+      edc: Uitgever van verzameling
+      edm: Uitgever van verplaatsbaar afbeeldingenwerk
+      elg: Elektricien
+      elt: Elektrotypist
+      enj: Vaststellen van jurisdictie
+      eng: Ingenieur
+      egr: Graveur
+      etr: Etser
+      evp: Evenement locatie
+      exp: Taxateur
+      fac: Faxen versturend persoon
+      fld: Manager in het veld
+      fmd: Filmregisseur
+      fds: Filmdistributeur
+      flm: Filmeditor
+      fmp: Filmproducent
+      fmk: Filmmaker
+      fpy: First party
+      frg: Smid/vervalser
+      fmo: Voormalig eigenaar
+      fnd: Financier
+      gis: Geografische informatie specialist
+      grt: Grafisch technicus
+      hnr: Eregast
+      hst: Host
+      his: Host instituut
+      ilu: Verlichter
+      ill: Illustrator
+      ins: Inschrijver/graveerder
+      itr: Instrumentalist
+      ive: Geïnterviewde 
+      ivr: Interviewer
+      inv: Uitvinder
+      isb: Uitvaardigend orgaan
+      jud: Rechter
+      jug: Jurisdictie-bestuurd
+      lbr: Laboratorium
+      ldr: Laboratorium directeur
+      lsa: Landschapsarchitect
+      led: Leiding
+      len: Uitlener
+      lil: Aanklager in smaadzaak
+      lit: Aanklager in smaadzaak-verzoeker
+      lie: Aanklager in smaadzaak-gedaagde
+      lel: Aangeklaagde in smaadzaak
+      let: Aangeklaagde in smaadzaak-verzoeker
+      lee: Aangeklaagde in smaadzaak-gedaagde
+      lbt: Librettist
+      lse: Licentiehouder
+      lso: Licentieverlener
+      lgd: Verlichtingsontwerper
+      ltg: Lithograaf
+      lyr: Tekstschrijver
+      mfp: Fabricage-locatie
+      mfr: Fabrikant
+      mrb: Marmerbewerker
+      mrk: Opmaakredacteur
+      med: Medium
+      mdc: Metadata contact
+      mte: Metaalgraveur
+      mtk: Notulist
+      mod: Gespreksleider
+      mon: Monitor
+      mcp: Muziek kopiist
+      msd: Muzikaal leider
+      mus: Musicus
+      nrt: Verteller
+      osp: TV presentator
+      opn: Tegenstander
+      orm: Organisator van bijeenkomst
+      org: Initiator
+      oth: Ander
+      own: Eigenaar
+      pan: Panellid
+      ppm: Papiermaker
+      pta: Octrooiaanvrager
+      pth: Octrooihouder
+      pat: Beschermer
+      prf: Uitvoerder/artiest
+      pma: Executoriaal bureau
+      pht: Fotograaf
+      ptf: Aanklager
+      ptt: Aanklager-verzoeker
+      pte: Aanklager-gedaagde
+      plt: Platemaker
+      pra: Preses
+      pre: Presentator
+      prt: Printer
+      pop: Printer van platen
+      prm: Graficus
+      prc: Verwerk contact
+      pro: Producent
+      prn: Productiebedrijf
+      pmn: Productiemanager
+      prs: Productieontwerper
+      prd: Productiepersoneel
+      prp: Productielocatie
+      prg: Programmeur
+      pdr: Projectleider
+      pfr: Corrector
+      prv: Aanbieder
+      pup: Publicatielocatie
+      pbl: Uitgever
+      pbd: Publicatiemanager
+      ppt: Poppenspeler
+      rdd: Radioregisseur
+      rpc: Radio producer
+      rcp: Begunstigde
+      rce: Opnametechnicus
+      rcd: Opnemer
+      red: Redacteur
+      ren: Verlener
+      rpt: Verslaggever
+      rps: Opslagplaats
+      rth: Hoofd onderzoeksteam
+      rtm: Lid onderzoeksteam
+      res: Onderzoeker
+      rsp: Respondent
+      rst: Respondent-verzoeker
+      rse: Respondent-gedaagde
+      rpy: Verantwoordelijke partij
+      rsg: Inrichter 
+      rsr: Restaurateur
+      rev: Recensent
+      rbr: Rubriekschrijver
+      sce: Scenarioschrijver
+      sad: Wetenschappelijk adviseur
+      scr: Scribent	
+      scl: Beeldhouwer
+      spy: Tweede partij
+      sec: Secretaris/secretaresse
+      sll: Verkoper
+      std: Decorontwerper
+      stg: Decor
+      sgn: Ondertekenaar
+      sng: Zanger
+      sds: Geluidsontwerper
+      spk: Speaker
+      spn: Sponsor
+      sgd: Theaterregisseur
+      stm: Inspiciënt
+      stn: Normalisatie-instelling
+      str: Stereotype
+      stl: Verhalenverteller
+      sht: Ondersteunende gastheer
+      srv: Inspecteur
+      tch: Leraar
+      tcd: Technisch directeur
+      tld: Televisie directeur
+      tlp: Televisie producent
+      ths: Thesis adviseur
+      trc: Transcribent
+      trl: Vertaler
+      tyd: Letterontwerper
+      tyg: Typograaf
+      uvp: Universitaire plek
+      vdg: Videograaf
+      vac: Stemacteur
+      voc: Vocalist
+      wit: Getuige
+      wde: Houtsnijder
+      wdc: Houthakker
+      wam: Schrijver van begeleidend materiaal
+      wac: Schrijver van toegevoegd commentaar
+      wal: Schrijver van toegevoegde teksten
+      wat: Schrijver van toegevoegde tekst
+      win: Schrijver van intro
+      wpr: Schrijver van voorwoord
+      wst: Schrijver van aanvullende tekstuele inhoud
+    linked_agent_event_roles:
+      authorizer: Authorisator
+      executing_program: Uitvoeringsprogramma
+      implementer: Uitvoerder
+      recipient: Ontvanger
+      transmitter: Zender
+      validator: Validator
+    name_source:
+      cash: Canadese onderwerp kopteksten
+      ingest: Ongespecificeerde geconsumeerde bron
+      lcshac: Library of Congress onderwerp kopteksten van kinderen
+      local: Lokale bronnen
+      naf: NACO Dossier van autoriteit
+      nad: NAD/ARK II Naam Autoriteit Database
+      nal: National Agricultural Library onderwerp kopteksten
+      rvm: Répertoire de vedettes-matière
+      ulan: Unielijst van artiestennamen
+    name_rule:
+      local: Lokale regels
+      aacr: Anglo-Amerikaanse catalogusregels
+      dacs: "Beschrijvende archieven: een inhoudsnorm"
+      rda: Bronomschrijving en toegang
+    extent_extent_type:
+      cassettes: Cassettes
+      cubic_feet: Kubieke meter (-voet)
+      files: Bestanden
+      gigabytes: Gigabytes
+      leaves: Blad(er)en
+      linear_feet: Strekkende meter
+      megabytes: Megabytes
+      photographic_prints: Fotografische prints
+      photographic_slides: Fotografische slides
+      reels: Haspels
+      sheets: Vellen
+      terabytes: Terabytes
+      volumes: Volumes
+    collection_management_processing_priority:
+      none: Niet gespecificeerd
+      high: Hoog
+      medium: Medium
+      low: Laag
+    collection_management_processing_status:
+      none: Niet gespecificeerd
+      new: Nieuw
+      in_progress: In uitvoering
+      completed: Afgerond
+    date_era:
+      ce: ce
+    date_calendar:
+      gregorian: Gregoriaans
+    digital_object_digital_object_type:
+      cartographic: Cartografisch
+      mixed_materials: Gemengde materialen
+      moving_image: Bewegende afbeelding
+      notated_music: Uitgeschreven muziek
+      software_multimedia: Software, multimedia
+      sound_recording: Geluidsopname
+      sound_recording_musical: Geluidsopname (muziek)
+      sound_recording_nonmusical: Geluidsopname (anders dan muziek)
+      still_image: Stilstaand beeld
+      text: Tekst
+    digital_object_level:
+      collection: collectie
+      work: Werk
+      image: Afbeelding
+    event_event_type:
+      accession: toegang
+      accumulation: Accumulatie
+      acknowledgement: Erkenning
+      acknowledgement_sent: Erkenning verzonden
+      acknowledgement_received: Erkenning ontvangen
+      agreement_received: Overeenkomst ontvangen
+      agreement_sent: Overeenkomst verzonden
+      agreement_signed: Overeenkomst getekend
+      appraisal: Evaluatie
+      assessment: Beoordeling
+      capture: Vastlegging
+      cataloged: Gecatalogiseerd
+      collection: Collectie
+      compression: Compressie
+      contribution: Bijdrage
+      component_transfer: Component overdracht
+      copyright_transfer: Auteursrecht overdracht
+      custody_transfer: Bewaring overdracht
+      deaccession: Afstoting
+      decompression: Decompressie
+      decryption: Decryptie
+      deletion: Verwijdering
+      digital_signature_validation: Digitale handtekening validatie
+      fixity_check: Onveranderlijkheid controle
+      ingestion: Consumptie
+      message_digest_calculation: Distributielijst berekening
+      migration: Migratie
+      normalization: Normalisatie
+      processed: Verwekt
+      processing_new: Nieuwe verwerken
+      processing_started: Verwerking gestart
+      processing_in_progress: Verwerking in uitvoering
+      processing_completed: Verwerking afgerond
+      publication: Publicatie
+      replication: Replicatie
+      rights_transferred: Rechten overgedragen
+      validation: Validatie
+      virus_check: Virusscan
+    resource_resource_type:
+      collection: Collectie
+      publications: Publicaties
+      papers: Papieren
+      records: Gegevens
+    resource_finding_aid_description_rules:
+      aacr: Anglo-Amerikaanse catalogiseringsregels
+      cco: Catalogisering culturele objecten
+      dacs: "Omschrijving Archieven: een inhoudsstandaard"
+      rad: Regels voor archiefomschrijving
+      isadg: Internationale Standaard voor archiefomschrijving - Algemeen
+    resource_finding_aid_status:
+      completed: Afgerond
+      in_progress: In uitvoering
+      under_revision: Wordt momenteel herzien
+      unprocessed: Niet verwerkt
+    instance_instance_type:
+      accession: toegang
+      audio: Audio
+      books: Boeken
+      computer_disks: Computerschijven
+      digital_object: Digitaal object
+      digital_object_link: Digitaal object Link
+      graphic_materials: Grafische materialen
+      maps: Plattegronden
+      microform: Microfiche
+      mixed_materials: Gemengde materialen
+      moving_images: Bewegende afbeeldingen
+      realia: Realia
+      text: Tekst
+    accession_acquisition_type:
+      deposit: Depot
+      gift: Gift
+      purchase: Aankoop
+      transfer: Overdracht
+    accession_resource_type:
+      collection: collectie
+      publications: Publicaties
+      papers: Papieren
+      records: Gegevens
+    subject_source:
+      aat: "Kunst & Architectuur Thesaurus"
+      cash: Canadese onderwerp kopteksten
+      gmgpc: "TGM II, Genre en fysieke kenmerktermen"
+      ingest: Ongespecificeerde geconsumeerde bron
+      lcsh: Library of Congress onderwerp kopteksten
+      lcshac: Library of Congress onderwerp kopteksten kinderen
+      local: Lokale bronnen
+      mesh: Medisch onderwerp kopteksten
+      nal: National Agricultural Library onderwerp kopteksten
+      rbgenr: "Genretermen: een thesaurus om te gebruiken voor zeldzame boeken en catalogiseren van speciale collecties"
+      rvm: Répertoire de vedettes-matière
+      tgn: Getty Thesaurus of Geographic Names
+    event_outcome:
+      pass: Pass
+      partial pass: Partial Pass
+      fail: Fail
+    agent_contact_salutation:
+      mr: Dhr.
+      mrs: Mevr.
+      ms: Mw.
+      madame: Mevrouw
+      sir: Mijnheer
+    container_type:
+      box: Doos
+      carton: Karton
+      case: Koffer
+      folder: Map
+      frame: Frame
+      object: Object
+      page: Pagina
+      reel: Haspel
+      volume: Volume
+      container: Container
+    file_version_use_statement:
+      audio-clip: Audioclip
+      audio-master: Audio-Master
+      audio-master-edited: Audio-master-bewerkt
+      audio-service: Audio-service
+      audio-streaming: Audio-streaming
+      image-master: Afbeelding-master
+      image-master-edited: Afbeelding-master-bewerkt
+      image-service: Afbeelding-service
+      image-service-edited: Afbeelding-service-bewerkt
+      image-thumbnail: Afbeelding-Thumbnail
+      text-codebook: Tekst-codeboek
+      text-data: Tekstgegevens
+      text-data_definition: Tekstgegevens definitie
+      text-georeference: Tekst-georeferentie
+      text-ocr-edited: Tekst-ocr- bewerkt
+      text-ocr-unedited: Tekst -ocr-onbewerkt
+      text-tei-transcripted: Tekst -Tei-getranscribeerd
+      text-tei-translated: Tekst -Tei-Vertaald
+      video-clip: Videoclip
+      video-master: Video-master
+      video-master-edited: Video-master-bewerkt
+      video-service: Video-service
+      video-streaming: Video-streaming
+    file_version_checksum_methods:
+      md5: MD5
+      sha-1: SHA-1
+      sha-256: SHA-256
+      sha-384: SHA-384
+      sha-512: SHA-512
+    language_iso639_2:
+      aar: Afar
+      abk: Abchazisch
+      ace: Atjees
+      ach: Acholi
+      ada: Adangme
+      ady: Adygees
+      afa: Afro-Aziatische talen
+      afh: Afrihili
+      afr: Afrikaans
+      ain: Ainu
+      aka: Akan
+      akk: Akkadisch
+      alb: Albanees
+      ale: Aleoetisch
+      alg: Algonkische talen
+      alt: Zuidelijk Altaïsch
+      amh: Amharisch
+      ang: "Klassiek Engels (ca.450-1100)"
+      anp: Angika
+      apa: Apache talen
+      ara: Arabisch
+      arc: Officieel Aramees (700-300 gangbare jaartelling); Imperiaal Aramees (700-300 gangbare jaartelling)
+      arg: Aragonees
+      arm: Armeens
+      arn: Mapudungun; Mapuche
+      arp: Arapaho
+      art: Kunstmatige talen
+      arw: Arawak
+      asm: Assamees
+      ast: Asturisch; Babbel; Leonees; Asturleonees
+      ath: Athapascan talen
+      aus: Australische talen
+      ava: Avaric
+      ave: Avestaans
+      awa: Awadhi
+      aym: Aymara
+      aze: Azerbeidzjaans
+      bad: Banda talen
+      bai: Bamileke talen
+      bak: Bashkir
+      bal: Baluchi
+      bam: Bambara
+      ban: Balinees
+      baq: Baskisch
+      bas: Basa
+      bat: Baltische talen
+      bej: Beja; Bedawiyet
+      bel: Wit-Russisch
+      bem: Bemba
+      ben: Bengaals
+      ber: Berbertalen
+      bho: Bhojpuri
+      bih: Biharitalen
+      bik: Bikol
+      bin: Bini; Edo
+      bis: Bislama
+      bla: Siksika
+      bnt: Bantu (Anders)
+      bos: Bosnisch
+      bra: Braj
+      bre: Bretons
+      btk: Bataktalen
+      bua: Buriat
+      bug: Buginese
+      bul: Bulgaars
+      bur: Birmaans
+      byn: Blin; Bilin
+      cad: Caddo
+      cai: Centraal-Amerikaanse Indiaanse talen
+      car: Galibi Caribisch
+      cat: Catalaans; Valenciaans
+      cau: Kaukasische talen
+      ceb: Cebuano
+      cel: Keltische talen
+      cha: Chamorro
+      chb: Chibcha
+      che: Chechen
+      chg: Chagatai
+      chi: Chinees
+      chk: Chuukees
+      chm: Mari
+      chn: Chinook jargon
+      cho: Choctaw
+      chp: Chipewyan; Dene Suline
+      chr: Cherokee
+      chu: Kerkelijk Slavisch; Klassiek Slavisch; Klassiek Bulgaars
+      chv: Chuvash
+      chy: Cheyenne
+      cmc: Chamische talen
+      cnr: Montenegrijns
+      cop: Koptisch
+      cor: Cornish
+      cos: Corsicaans
+      cpe: "Creools en pidgin, op Engels gebaseerd"
+      cpf: "Creools en pidgin, op Frans gebaseerd"
+      cpp: "Creools en pidgin, op Portugees gebaseerd"
+      cre: Cree
+      crh: Krim Tartaars; Krim-Turks
+      crp: Creools en pidgin
+      csb: Kasjoebisch
+      cus: Koesjitische talen
+      cze: Tsjechisch
+      dak: Dakota
+      dan: Deens
+      dar: Darginisch
+      day: Dajaktalen
+      del: Delaware
+      den: Slavisch (Athabaskisch)
+      dgr: Dogrib
+      din: Dinka
+      div: Divehi; Dhivehi; Maldivisch
+      doi: Dogri
+      dra: Dravidische talen
+      dsb: Lager Sorbisch
+      dua: Duala
+      dum: " Middelnederlands (ca.1050-1350)"
+      dut: Nederlands; Vlaams
+      dyu: Dyula
+      dzo: Dzongkha
+      efi: Efik
+      egy: Egyptisch (Klassiek)
+      eka: Ekajuk
+      elx: Elamitisch
+      eng: Engels
+      enm: "Middelengels (1100-1500)"
+      epo: Esperanto
+      est: Ests
+      ewe: Ewe
+      ewo: Ewondo
+      fan: Fang
+      fao: Faeröers
+      fat: Fanti
+      fij: Fijisch
+      fil: Filipijns; Philipino
+      fin: Fins
+      fiu: Fins-Hongaarse talen
+      fon: Fon
+      fre: Frans
+      frm: "Middelfrans (ca.1400-1600)"
+      fro: "Frans, Klassiek (842-ca.1400)"
+      frr: Noord-Fries
+      frs: Oost-Fries
+      fry: West-Fries
+      ful: Fulah
+      fur: Friuliaans
+      gaa: Ga
+      gay: Gayos
+      gba: Gbayaans
+      gem: Germaanse talen
+      geo: Georgisch
+      ger: Duits
+      gez: Ethiopisch
+      gil: Kiribatisch
+      gla: Gallisch; Schots Gallisch
+      gle: Iers
+      glg: Galicisch
+      glv: Manx
+      gmh: " Middelhoogduits(ca.1050-1500)"
+      goh: " Oudhoogduits (ca.750-1050)"
+      gon: Gondi
+      gor: Gorontalo
+      got: Gothisch
+      grb: Grebo
+      grc: "Klassiek Grieks"
+      gre: "Modern Grieks (1453-)"
+      grn: Guaraní
+      gsw: Zwitserduits; Alemannisch; Alsatisch
+      guj: Gujarati
+      gwi: Gwich'in
+      hai: Haida
+      hat: Haïtiaans; Haïtiaans Creools
+      hau: Hausa
+      haw: Hawaiiaans
+      heb: Hebreeuws
+      her: Herero
+      hil: Hiligaynon
+      him: Himachali-talen; Westerse Pahari-talen
+      hin: Hindi
+      hit: Hettitisch
+      hmn: Hmong; Mong
+      hmo: Hiri Motu
+      hrv: Kroatisch
+      hsb: Hoger Servisch
+      hun: Hongaars
+      hup: Hupa
+      iba: Iban
+      ibo: Igbo
+      ice: IJslands
+      ido: Ido
+      iii: Sichuan Yi; Nuosu
+      ijo: Ijo talen
+      iku: Inuktitut
+      ile: Interlingue; Occidentaals
+      ilo: Iloko
+      ina: Interlingua (Internationale Ondersteunde Talen Vereniging)
+      inc: Indic talen
+      ind: Indonesisch
+      ine: Indo-Europese talen
+      inh: Ingush
+      ipk: Inupiaq
+      ira: Iraanse talen
+      iro: Iroquoise talen
+      ita: Italiaans
+      jav: Javanees
+      jbo: Lojban
+      jpn: Japans
+      jpr: Judeo-Persisch
+      jrb: Judeo-Arabisch
+      kaa: Kara-Kalpak
+      kab: Kabylisch
+      kac: Kachin; Jingpho
+      kal: Kalaallisut; Groenlands
+      kam: Kamba
+      kan: Kannada
+      kar: Karen talen
+      kas: Kasjmir
+      kau: Kanuri
+      kaw: Kawi
+      kaz: Kazakh
+      kbd: Kabardisch
+      kha: Khasi
+      khi: Khoisan-talen
+      khm: Centraal Khmer
+      kho: Khotanees; Sakan
+      kik: Kikuyu; Gikuyu
+      kin: Rwandees
+      kir: Kirghiz; Kyrgyz
+      kmb: Kimbundu
+      kok: Konkani
+      kom: Komi
+      kon: Kongolees
+      kor: Koreaans
+      kos: Kosraean
+      kpe: Kpelle
+      krc: Karachay-Balkar
+      krl: Karelisch
+      kro: Kru talen
+      kru: Kurukh
+      kua: Kuanyama; Kwanyama
+      kum: Kumyk
+      kur: Koerdish
+      kut: Kutenai
+      lad: Ladino
+      lah: Lahnda
+      lam: Lamba
+      lao: Lao
+      lat: Latijn
+      lav: Lets
+      lez: Lezghiaans
+      lim: Limburgs; Limburger; Limburgs
+      lin: Lingala
+      lit: Litouws
+      lol: Mongolees
+      loz: Lozi
+      ltz: Luxemburgs; Letzeburgs
+      lua: Luba-Lulua
+      lub: Luba-Katanga
+      lug: Ganda
+      lui: Luiseno
+      lun: Lunda
+      luo: Luo (Kenya and Tanzania)
+      lus: Lushai
+      mac: Macedonisch
+      mad: Madurees
+      mag: Magahi
+      mah: Marshallees
+      mai: Maithili
+      mak: Makasar
+      mal: Malayalam
+      man: Mandingo
+      mao: Maori
+      map: Austronesische talen
+      mar: Marathi
+      mas: Masai
+      may: Maleis
+      mdf: Moksha
+      mdr: Mandarijn
+      men: Mende
+      mga: "Midden-Iers (900-1200)"
+      mic: Mi'kmaq; Micmac
+      min: Minangkabau
+      mis: Niet gecodeerde talen
+      mkh: Mon-Khmer talen
+      mlg: Malagassisch 
+      mlt: Maltees
+      mnc: Manchu
+      mni: Manipuri
+      mno: Manobo talen
+      moh: Mohawk
+      mon: Mongolisch
+      mos: Mossi
+      mul: Meervoudige talen
+      mun: Munda-talen
+      mus: Creek
+      mwl: Mirandees
+      mwr: Marwari
+      myn: Mayan talen
+      myv: Erzya
+      nah: Nahuatl-talen
+      nai: Noord-Amerikaans Indiaanse talen
+      nap: Napolitaans
+      nau: Nauru
+      nav: Navajo; Navaho
+      nbl: "Ndebele, Zuid; Zuid Ndebele"
+      nde: "Ndebele, Noord; Noord Ndebele"
+      ndo: Ndonga
+      nds: "Laagduits; Laagsaksisch; Duits, Laag; Saksisch, Laag"
+      nep: Nepalees
+      new: Nepal Bhasa; Newari
+      nia: Nias
+      nic: Niger-Kordofanische talen
+      niu: Niuean
+      nno: "Noors Nynorsk; Nynorsk, Noors"
+      nob: "Noors Bokmål; Bokmål, Noors"
+      nog: Nogai
+      non: "Noors, Oud"
+      nor: Noors
+      nqo: N'Ko
+      nso: Pedi; Sepedi; Noordelijk Sotho
+      nub: Nubische talen
+      nwc: Klassiek Newari; Oud Newari; Klassiek Nepalees Bhasa
+      nya: Chichewa; Chewa; Nyanja
+      nym: Nyamwezi
+      nyn: Nyankole
+      nyo: Nyoro
+      nzi: Nzima
+      oci: Occitan (na 1500); Provençaals
+      oji: Ojibwa
+      ori: Oriya
+      orm: Oromo
+      osa: Osage
+      oss: Ossetisch; Ossetic
+      ota: "Turks, Ottomaans (1500-1928)"
+      oto: Ottomaanse talen
+      paa: Papua-talen
+      pag: Pangasinan
+      pal: Pahlavi
+      pam: Pampanga; Kapampangan
+      pan: Panjabi; Punjabi
+      pap: Papiamento
+      pau: Palauanees
+      peo: "Klassiek Persisch (ca.600-400 B.C.)"
+      per: Persisch
+      phi: Filipijnse talen
+      phn: Fenicisch
+      pli: Pali
+      pol: Pools
+      pon: Pohnpeiaans
+      por: Portugees
+      pra: Prakrit-talen
+      pro: "Klassiek Provençaals (tot 1500)"
+      pus: Pushto; Pashto
+      que: Quechua
+      raj: Rajasthani
+      rap: Rapa Nui
+      rar: Rarotongan; Cookeilanden Maori
+      roa: Romaanse talen
+      roh: Romeins
+      rom: Retro-Romaans
+      rum: Roemeens; Moldavisch; Moldavisch
+      run: Rundi
+      rup: Aroemeens; Macedobisch-Roemeens
+      rus: Russisch
+      sad: Sandawe
+      sag: Sango
+      sah: Jakoets
+      sai: Zuid-Amerikaans Indiaans (overige)
+      sal: Salisjtalen
+      sam: Samaritaans Aramees
+      san: Sanskriet
+      sas: Sasak
+      sat: Santali
+      scn: Siciliaans
+      sco: Schots
+      sel: Selkup
+      sem: Semitische talen
+      sga: "Klassiek Iers (tot 900)"
+      sgn: Gebarentalen
+      shn: Shan
+      sid: Sidamo
+      sin: Sinhala; Sinhalees
+      sio: Siouan talen
+      sit: Sino-Tibetaanse talen
+      sla: Slavische talen
+      slo: Slovaaks
+      slv: Sloveens
+      sma: Zuid-Samisch
+      sme: Noord-Samisch
+      smi: Sami talen
+      smj: Lule Samisch
+      smn: Inari Samisch
+      smo: Samoaans
+      sms: Skolt Samisch
+      sna: Shona
+      snd: Sindhi
+      snk: Soninke
+      sog: Sogdisch
+      som: Somalisch
+      son: Songhai-talen
+      sot: "Zuid-Sotho"
+      spa: Spaans; Castiliaans
+      srd: Sardijns
+      srn: Sranantongo
+      srp: Servisch
+      srr: Sérères
+      ssa: Nilo-Saharaanse talen
+      ssw: Swati
+      suk: Sukuma
+      sun: Soedanees
+      sus: Susu
+      sux: Soemerisch
+      swa: Swahili
+      swe: Zweeds
+      syc: Klassiek Syrisch
+      syr: Syrisch
+      tah: Tahitiaans
+      tai: Tai-talen
+      tam: Tamil
+      tat: Tataars
+      tel: Telugu
+      tem: Timne
+      ter: Tereno
+      tet: Tetum
+      tgk: Tadzjikistans
+      tgl: Tagalog
+      tha: Thais
+      tib: Tibetaans
+      tig: Tigre
+      tir: Tigrinya
+      tiv: Tiv
+      tkl: Tokelau
+      tlh: Klingon; tlhIngan-Hol
+      tli: Tlingit
+      tmh: Tamashek
+      tog: Tonga (Nyasa)
+      ton: Tonga (Tonga eilanden)
+      tpi: Tok Pisin
+      tsi: Tsimshian
+      tsn: Tswana
+      tso: Tsonga
+      tuk: Turkmeens
+      tum: Tumbuka
+      tup: Tupi-talen
+      tur: Turks
+      tut: Altaic talen
+      tvl: Tuvalu
+      twi: Twi
+      tyv: Tuvinian
+      udm: Udmurt
+      uga: Ugaritisch
+      uig: Uighur; Uyghur
+      ukr: Oekraïens
+      umb: Umbundu
+      und: Onbepaald
+      urd: Urdu
+      uzb: Oezbeeks
+      vai: Vai
+      ven: Venda
+      vie: Vietnamees
+      vol: Volapük
+      vot: Votic
+      wak: Wakashan-talen
+      wal: Walamo
+      war: Waray
+      was: Washo
+      wel: Welsh
+      wen: Sorbische talen
+      wln: Waals
+      wol: Wolof
+      xal: Kalmyk; Oirat
+      xho: Xhosa
+      yao: Yao
+      yap: Yaps
+      yid: Jiddish
+      yor: Yoruba
+      ypk: Yupik-talen
+      zap: Zapotec
+      zbl: Blissymbols; Blissymbolics; Bliss
+      zen: Zenaga
+      zgh: Standaard Marokkaans Tamazight
+      zha: Zhuang; Chuang
+      znd: Zande-talen
+      zul: Zoeloe
+      zun: Zuni
+      zxx: Geen taalkundige inhoud; Niet van toepassing
+      zza: Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki
+    archival_record_level:
+      class: Klasse
+      collection: Collectie
+      file: Bestand
+      fonds: Fonds
+      item: Item
+      otherlevel: Ander niveau
+      recordgrp: Gegevensgroep
+      series: Series
+      subfonds: Sub-fonds
+      subgrp: Subgroep
+      subseries: Sub-serie
+    container_location_status:
+      current: Huidig
+      previous: Voorgaande
+    date_type:
+      expression: Uitdrukking
+      single: Enkelvoudig
+      bulk: Bulk Datums
+      inclusive: Inclusieve Datums
+      range: Bereik
+    date_label:
+      record_keeping: Gegevensbewaring
+      broadcast: Uitzending
+      copyright: Copyright
+      creation: Creatie
+      deaccession: Afstoting
+      agent_relation: Agent Relatie
+      digitized: Gedigitaliseerd
+      existence: Existentie
+      event: Evenement
+      issued: Uitgegeven
+      modified: Gewijzigd
+      publication: Publicatie
+      usage: Gebruik
+      other: Anders
+    date_certainty:
+      approximate: Benaderend
+      inferred: Afgeleid
+      questionable: Twijfelachtig
+    extent_portion:
+      whole: Geheel
+      part: Gedeelte
+    deaccession_scope:
+      whole: Geheel
+      part: Gedeelte
+    file_version_xlink_actuate_attribute:
+      none: geen
+      other: anders
+      onLoad: op Laden
+      onRequest: op Verzoek
+    file_version_xlink_show_attribute:
+      new: nieuw
+      vervangen: vervangen
+      embed: integreer
+      other: anders
+      none: geen
+    file_version_file_format_name:
+      aiff: Audio Interchange File Format
+      avi: Audio/Video Interleaved Format
+      gif: Graphics Interchange Format
+      jpeg: JPEG File Interchange Format
+      mp3: MPEG Audio Layer 3
+      pdf: Portable Document Format
+      tiff: Tagged Image File Format
+      txt: Plain Text File
+    location_temporary:
+      conservation: Conservatie
+      exhibit: Vertonen
+      loan: Lening
+      reading_room: Leeskamer
+    name_person_name_order:
+      direct: Direct
+      inverted: Indirect
+    country_iso_3166:
+      AF: Afghanistan
+      AX: Ålandseilanden
+      AL: Albanië
+      DZ: Algerije
+      AS: Amerikaans Samoa
+      AD: Andorra
+      AO: Angola
+      AI: Anguilla
+      AQ: Antarctica
+      AG: Antigua en Barbuda
+      AR: Argentinië
+      AM: Armenië
+      AW: Aruba
+      AU: Australië
+      AT: Oostenrijk
+      AZ: Azerbaijan
+      BS: Bahama’s
+      BH: Bahrein
+      BD: Bangladesh
+      BB: Barbados
+      BY: Wit-Rusland
+      BE: België
+      BZ: Belize
+      BJ: Benin
+      BM: Bermuda
+      BT: Bhutan
+      BO: Bolivia
+      BQ: "Bonaire, Sint Eustatius en Saba"
+      BA: Bosnië en Herzegovina
+      BW: Botswana
+      BV: Bouveteiland
+      BR: Brazilië
+      IO: Brits Indische Oceaanterritorium
+      BN: Brunei Darussalam
+      BG: Bulgarije
+      BF: Burkina Faso
+      BI: Burundi
+      KH: Cambodja
+      CM: Kameroen
+      CA: Canada
+      CV: Kaapverdië
+      KY: Kaaiman eilanden
+      CF: Centraal Afrikaanse Republiek
+      TD: Tsjaad
+      CL: Chili
+      CN: China
+      CX: Christmas eiland
+      CC: Cocoseilanden
+      CO: Colombia
+      KM: Comoros
+      CG: Congo
+      CD: Democratische Republiek Kongo
+      CK: Cookeilanden
+      CR: Costa Rica
+      CI: Ivoorkust
+      HR: Kroatië
+      CU: Cuba
+      CW: Curaçao
+      CY: Cyprus
+      CZ: Tsjechië
+      DK: Denemarken
+      DJ: Djibouti
+      DM: Dominica
+      DO: Dominicaanse Republiek
+      EC: Ecuador
+      EG: Egypte
+      SV: El Salvador
+      GQ: Equatoriaal Guinee 
+      ER: Eritrea
+      EE: Estland
+      ET: Ethiopië
+      FK: Falklandeilanden
+      FO: Faeröereilanden
+      FJ: Fiji
+      FI: Finland
+      FR: Frankrijk
+      GF: Frans Guyana
+      PF: Frans Polynesië
+      TF: Frans Zuidelijk Territorium
+      GA: Gabon
+      GM: Gambia
+      GE: Georgië
+      DE: Duitsland
+      GH: Ghana
+      GI: Gibraltar
+      GR: Griekenland
+      GL: Groenland
+      GD: Grenada
+      GP: Guadeloupe
+      GU: Guam
+      GT: Guatemala
+      GG: Guernsey
+      GN: Guinee
+      GW: Guinee-Bissau
+      GY: Guyana
+      HT: Haïti
+      HM: Heardeiland en McDonaldeilanden
+      VA: Vaticaanstad
+      HN: Honduras
+      HK: Hong Kong
+      HU: Hongarije
+      IS: IJsland
+      IN: India
+      ID: Indonesië
+      IR: Iran
+      IQ: Irak
+      IE: Ierland
+      IM: Man
+      IL: Israël
+      IT: Italië
+      JM: Jamaica
+      JP: Japan
+      JE: Jersey
+      JO: Jordanië
+      KZ: Kazachstan
+      KE: Kenia
+      KI: Kiribati
+      KP: Noord-Korea
+      KR: Zuid-Korea
+      KW: Koeweit
+      KG: Kyrgyzstan
+      LA: "Laos"
+      LV: Letland
+      LB: Libanon
+      LS: Lesotho
+      LR: Liberia
+      LY: Libië
+      LI: Liechtenstein
+      LT: Litouwen
+      LU: Luxemburg
+      MO: Macao
+      MK: "Macedonië"
+      MG: Madagaskar
+      MW: Malawi
+      MY: Maleisië
+      MV: Maladieven
+      ML: Mali
+      MT: Malta
+      MH: Marshalleilanden
+      MQ: Martinique
+      MR: Mauritanië
+      MU: Mauritius
+      YT: Mayotte
+      MX: Mexico
+      FM: Micronesië
+      MD: Moldavië
+      MC: Monaco
+      MN: Mongolië
+      ME: Montenegro
+      MS: Montserrat
+      MA: Marokko
+      MZ: Mozambique
+      MM: Myanmar
+      NA: Namibia
+      NR: Nauru
+      NP: Nepal
+      NL: Nederland
+      NC: Nieuw Caledonië
+      NZ: Nieuw Zeeland
+      NI: Nicaragua
+      NE: Niger
+      NG: Nigeria
+      NU: Niue
+      NF: Norfolk eiland
+      MP: Noordelijke Marianen
+      NO: Noorwegen
+      OM: Oman
+      PK: Pakistan
+      PW: Palau
+      PS: Bezet Palestijns Gebied
+      PA: Panama
+      PG: Papua Nieuw Guinea
+      PY: Paraguay
+      PE: Peru
+      PH: Filippijnen
+      PN: Pitcairneilanden
+      PL: Polen
+      PT: Portugal
+      PR: Puerto Rico
+      QA: Qatar
+      RE: Réunion
+      RO: Roemenië
+      RU: Russische Federatie
+      RW: Rwanda
+      BL: Saint Barthélemy
+      SH: Sint Helena, Ascension en Tristan da Cunha
+      KN: Saint Kitts en Nevis
+      LC: Saint Lucia
+      MF: Saint Martin (French Part)
+      PM: Saint Pierre en Miquelon
+      VC: Saint Vincent en de Grenadines
+      WS: Samoa
+      SM: San Marino
+      ST: Sao Tomé en Principe
+      SA: Saudi-Arabië
+      SN: Senegal
+      RS: Servië
+      SC: Seychellen
+      SL: Sierra Leone
+      SG: Singapore
+      SX: Sint Maarten (Nederlands deel)
+      SK: Slowakije
+      SI: Slovenië
+      SB: Solomon eilanden
+      SO: Somalia
+      ZA: Zuid-Afrika
+      GS: Zuid-Georgia en de Zuidelijke Sandwicheilanden
+      SS: Zuid Soedan
+      ES: Spanje
+      LK: Sri Lanka
+      SD: Soedan
+      SR: Suriname
+      SJ: Svalbard en Jan Mayen
+      SZ: Swaziland
+      SE: Zweden
+      CH: Zwitserland
+      SY: Syrië
+      TW: Taiwan
+      TJ: Tadzjikistan
+      TZ: Tanzania
+      TH: Thailand
+      TL: Timor-Leste
+      TG: Togo
+      TK: Tokelau
+      TO: Tonga
+      TT: Trinidad en Tobago
+      TN: Tunesië
+      TR: Turkije
+      TM: Turkmenistan
+      TC: Turks- en Caicoseilanden
+      TV: Tuvalu
+      UG: Oeganda
+      UA: Oekraïne
+      AE: Verenigde Arabische Emiraten
+      GB: Verenigd Koninkrijk
+      US: Verenigde Staten
+      UM: Verenigde Staten ondergeschikte afgelegen eilanden
+      UY: Uruguay
+      UZ: Oezbekistan
+      VU: Vanuatu
+      VE: Venezuela
+      VN: Vietnam
+      VG  Britse Maagdeneilanden
+      VI: Amerikaanse Maagdeneilanden
+      WF: Wallis en Futuna
+      EH: Westerse Sahara
+      YE: Jemen
+      ZM: Zambia
+      ZW: Zimbabwe
+    rights_statement_rights_type:
+      intellectual_property: Intellectual Property
+      license: Licentie
+      statute: Statuut
+      institutional_policy: Institutioneel Beleid
+    rights_statement_ip_status:
+      copyrighted: Auteursrechtelijk beschermd
+      public_domain: Publiek Domein
+      unknown: Onbekend
+    subject_term_type:
+      cultural_context: Culturele context
+      function: Functie
+      geographic: Geografisch
+      genre_form: "Genre/Formulier"
+      occupation: Beroep
+      style_period: "Stijl/Periode"
+      technique: Techniek
+      temporal: Temporaal
+      topical: Actueel
+      uniform_title: Uniforme titel
+    _note_types: &note_type_definitions
+      accessrestrict: Voorwaarden voor toegang
+      accruals: Opbouw
+      acqinfo: Directe acquisitiebron
+      altformavail: Bestaan en locatie van kopieën
+      appraisal: Evaluatie
+      arrangement: Regeling
+      bibliography: Bibliografie
+      bioghist: Biografisch/Historisch
+      custodhist: Bewaarnemingsgeschiedenis
+      fileplan: Bestandsplan
+      index: Index
+      odd: Algemeen
+      otherfindaid: Andere inventaris
+      originalsloc: Bestaan en locatie van originelen
+      phystech: Fysieke kenmerken en technische vereisten
+      prefercite: Voorkeurscitaat
+      processinfo: Informatie aan het verwerken
+      scopecontent: Omvang en inhoud
+      separatedmaterial: Gescheiden materialen
+      userestrict: Voorwaarden voor gebruik
+      dimensions: Afmetingen
+      legalstatus: Juridische Status
+      summary: Samenvatting
+      edition: Editie
+      extent: Omvang
+      note: Algemene notitie
+      inscription: Inscriptie
+      langmaterial: Taal van materialen
+      physdesc: Fysieke omschrijving
+      relatedmaterial: Gerelateerde materialen
+      abstract: Overzicht
+      physloc: Fysieke locatie
+      materialspec: Specifieke details materialen
+      physfacet: Fysiek aspect
+    note_digital_object_type:
+      <<: *note_type_definitions
+    note_multipart_type:
+      <<: *note_type_definitions
+    note_singlepart_type:
+      <<: *note_type_definitions
+    linked_agent_role:
+      creator: Ontwikkelaar
+      source: Bron
+      subject: Onderwerp
+    agent_relationship_associative_relator:
+      is_associative_with: Associatief met aanverwante
+    agent_relationship_earlierlater_relator:
+      is_earlier_form_of: Eerdere manier van gerelateerd zijn
+      is_later_form_of: Latere manier van gerelateerd zijn
+    agent_relationship_parentchild_relator:
+      is_child_of: Ouder
+      is_parent_of: Kind
+    accession_sibling_relator:
+      sibling_of: Broer/zus
+    accession_parts_relator:
+      forms_part_of: Vormt (onder)deel van
+      has_part: Draagt bij
+    accession_parts_relator_type:
+      part: "\"Part\" relationship"
+    accession_sibling_relator_type:
+      bound_with: "\"Bound With\" relationship"
+    agent_relationship_subordinatesuperior_relator:
+      is_subordinate_to: Is Subordinate to Related
+      is_superior_of: Is Superior of Related
+    note_index_item_type:
+      name: Naam
+      person: Persoon
+      family: Familie
+      corporate_entity: Bedrijfsentiteit
+      subject: Onderwerp
+      function: Functie
+      occupation: Beroep
+      title: titel
+      geographic_name: Geografische naam
+    user_defined_enum_1:
+      novalue: No value defined
+    user_defined_enum_2:
+      novalue: No value defined
+    user_defined_enum_3:
+      novalue: No value defined
+    user_defined_enum_4:
+      novalue: No value defined
+    job_type:
+      print_to_pdf_job: Print naar PDF
+      import_job: Importeer Data
+      find_and_replace_job: Batch vinden en vervangen (Beta)
+      report_job: Rapporten
+      container_conversion_job: Rapporten
+    dimension_units:
+      inches: Inches
+      feet: Voet
+      yards: Yard
+      millimeters: Millimeter
+      centimeters: Centimeter
+      meters: Meter
+    restriction_type:
+      RestrictedSpecColl: 1 - Donor/universiteit legde toegangsbeperking op
+      RestrictedCurApprSpecColl: 2 - Bewaarplaats legde toegangsbeperking op
+      RestrictedFragileSpecColl: 3 - Beperkt kwetsbaar
+      InProcessSpecColl: 4 - Beperkt in-uitvoering
+      ColdStorageBrbl: 5 - Anders
+    location_function_type:
+      av_materials: Audiovisuele materialen
+      arrivals: Aankomsten
+      shared: Gedeeld
+
+ enumeration_names:
+    accession_acquisition_type: Toetreding acquisitiesoort
+    accession_parts_relator: toegang onderdelen relator
+    accession_parts_relator_type: toegang onderdelen relatortype
+    accession_sibling_relator: "Toetreding broer/zus relator"
+    accession_sibling_relator_type: Toetreding broer/zus relatortype
+    accession_resource_type: toegang brontype
+    agent_contact_salutation: Agent Contact Aanhef
+    agent_relationship_associative_relator: Agent Relatie Geassocieerde Relator
+    agent_relationship_earlierlater_relator: Agent relatie eerder/later Relator
+    agent_relationship_parentchild_relator: Agent relatie ouder/kind Relator
+    agent_relationship_subordinatesuperior_relator: Agent relatie ondergeschikte/superieur relator
+    archival_record_level: archiefgegevensniveau
+    collection_management_processing_priority: Collectiemanagement verwerkingsprioriteit
+    collection_management_processing_status: Collectiemanagement verwerkingsstatus
+    container_location_status: Container locatie status
+    container_type: Containertype
+    country_iso_3166: Land ISO 3166
+    date_calendar: Datumkalender
+    date_certainty: Datum zekerheid
+    date_era: Datum tijdsbestek
+    date_label: Datumlabel
+    date_type: Datumtype
+    deaccession_scope: Omvang afstoting
+    digital_object_digital_object_type: Digitaal object digitaal objecttype
+    digital_object_level: Digitaal objectniveau
+    event_event_type: Event Evenementtype
+    event_outcome: Evenementresultaat
+    extent_extent_type: Omvang omvangstype
+    extent_portion: Omvang Portie
+    file_version_checksum_methods: Bestandsversie controlesom methoden
+    file_version_file_format_name: Bestandsversie File Format Naam
+    file_version_use_statement: Bestandsversie gebruiksstatement
+    file_version_xlink_actuate_attribute: Bestandsversie Xlink stuur eigenschap aan
+    file_version_xlink_show_attribute: Bestandsversie Xlink toon eigenschap
+    instance_instance_type: Geval gevalstype
+    language_iso639_2: Taal ISO 639-2
+    linked_agent_archival_record_relators: Gekoppelde Agent Archiefgegevens Relators
+    linked_agent_event_roles: Gekoppelde Agent Evenement Rollen
+    linked_agent_role: Gekoppelde Agent Fucntie
+    linked_event_archival_record_roles: Gekoppeld Evenement archiefgegevensfuncties
+    location_temporary: locatie tijdelijk
+    name_person_name_order: Naam Persoon Naam Order
+    name_rule: Naam Regel
+    name_source: Naam Bron
+    note_bibliography_type: Notitie Bibliografie Type
+    note_digital_object_type: Notitie Digitaal Objecttype
+    note_index_item_type: Notitie Index Itemtype
+    note_index_type: Notitie Indextype
+    note_multipart_type: Notitie Multiparttype
+    note_orderedlist_enumeration: Notitie bestellijst opsomming
+    note_singlepart_type: Notitie enkelvoudig onderdeel Type
+    telephone_number_type: Telefoonnummer Type
+    resource_finding_aid_description_rules: Bron inventaris omschrijving regels
+    resource_finding_aid_status: Bron inventaris Status
+    resource_resource_type: Bron Brontype
+    rights_statement_ip_status: Rechten Statement IP-status
+    rights_statement_rights_type: Rechtenverklaring Rechtentype
+    subject_source: Onderwerpbron
+    subject_term_type: Onderwerp Termtype
+    user_defined_enum_1: Gebruiker-gedefinieerde opsomming 1
+    user_defined_enum_2: Gebruiker-gedefinieerde opsomming 2
+    user_defined_enum_3: Gebruiker-gedefinieerde opsomming 3
+    user_defined_enum_4: Gebruiker-gedefinieerde opsomming 4
+    job_type: Job Type
+    dimension_units: Dimensionale eenheden
+    restriction_type: Lokale toegangsbeperking Type
+    location_function_type: Locatie functietype
+# added to support things like provenance
+    inventory: Inventaris
+    disposition: Beschikking
+    content_description: Contentomschrijving
+    provenance: Herkomst
+    access_date: Toegangsdatum
+    access_restrictions_note: Voorwaarden voor toegang
+    use_restrictions_note: Voorwaarden voor gebruik
+
+  pdf_reports:
+    administrative_information: Administratieve informatie
+    collection_inventory: Collectie Inventaris
+    summary_information: Samenvatting informatie
+    table_of_contents: Inhoudsopgave
+    publication_statement: Publicatie verklaring
+    controlled_access_headings: Beheerde toegangsrubrieken
+    finding_aid_date_prefix: Deze inventaris is geproduceerd met behulp van ArchivesSpace op
+    finding_aid_written_in: Inventaris geschreven in
+    your_finding_aid_pdf: Uw inventaris PDF voor "%{titel}"
+    your_finding_aid_is_attached: De door u gevraagde inventaris is bijgevoegd.
+    submit: Stuur mij een PDF
+    description: Om een PDF versie van deze collectie te ontvangen, gelieve hieronder uw e-mailadres op te geven.
+    coming_soon: Uw PDF wordt gegenereerd en wordt naar u gemaild wanneer deze klaar is.
+    required: Vereist
+    user_email: Uw e-mailadres
+
+  readmore:
+    see_more: Zie meer
+    see_less: Zie minder
+
+  skipnav:
+     main_content: Ga naar hoofdinhoud
+    sidebar: Ga naar werkbalk
+    search: Ga naar zoeken
+    search_results: Ga naar zoekresultaten
+
+  search_tab: zoekopdracht %{target)

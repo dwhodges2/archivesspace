@@ -1,0 +1,151 @@
+nl:
+  help:
+    icon: "<span class='context-help-icon glyphicon glyphicon-question-sign'></span>"
+    help_center: ArchivesSpace Help Center
+    default_tooltip: ArchivesSpace Help Center
+    topics:
+      # Accession help tooltips
+      accession: Hulp bij toegang
+      accession_basic_information: Hulp bij basisinformatie
+      accession_extents: Hulp bij omvang
+      accession_dates: Hulp bij gegevens
+      accession_related_resources: Hulp bij gerelateerde bronnen
+      accession_linked_agents: Hulp bij Agent Links
+      accession_subjects: Hulp bij onderwerpen
+      accession_external_documents: Hulp bij externe documenten
+      accession_rights_statements: Hulp bij rechtenverklaringen
+      accession_deaccessions: Hulp bij afstotingen
+      accession_instances: Hulp bij gevallen
+      accession_collection_management: Hulp bij collectiemanagement
+      accession_classification: Hulp bij classificaties
+      accession_user_defined: Hulp bij door gebruiker gedefinieerde
+      # Resource help tooltips
+      resource: Hulp bij bronnen
+      resource_basic_information: Hulp bij basisinformatie
+      resource_dates: Hulp bij gegevens
+      resource_extents: Hulp bij omvang
+      resource_finding_aid: Hulp bij inventaris
+      resource_related_accessions: Hulp bij gerelateerde toegang
+      resource_linked_agents: Hulp bij Agent Links
+      resource_subjects: Hulp bij onderwerpen
+      resource_notes: Hulp bij notities
+      resource_external_documents: Hulp bij externe documenten
+      resource_rights_statements: Hulp bij rechtenverklaringen
+      resource_instances: Hulp bij gevallen
+      resource_deaccessions: Hulp bij afstotingen
+      resource_collection_management: Hulp bij collectiemanagement
+      resource_classification: Hulp bij classificaties
+      resource_user_defined: Hulp bij door gebruiker gedefinieerde
+      # Archival Object help tooltips
+      archival_object: Hulp bij archiefobjecten
+      archival_object_basic_information: Hulp bij basisinformatie
+      archival_object_dates: Hulp bij gegevens
+      archival_object_extents: Hulp bij omvang
+      archival_object_finding_aid: Hulp bij inventaris
+      archival_object_related_accessions: Hulp bij gerelateerde toegang
+      archival_object_linked_agents: Hulp bij Agent Links
+      archival_object_subjects: Hulp bij onderwerpen
+      archival_object_notes: Hulp bij notities
+      archival_object_external_documents: Hulp bij externe documenten
+      archival_object_rights_statements: Hulp bij rechtenverklaringen
+      archival_object_instances: Hulp bij gevallen
+      archival_object_deaccessions: Hulp bij afstotingen
+      archival_object_collection_management: Hulp bij collectiemanagement
+      archival_object_classification: Hulp bij classificaties
+      archival_object_user_defined: Hulp bij door gebruiker gedefinieerde
+      # Digital Object help tooltips
+      digital_object: Hulp bij Digitaal object
+      digital_object_basic_information: Hulp bij basisinformatie
+      digital_object_dates: Hulp bij gegevens
+      digital_object_extents: Hulp bij omvang
+      digital_object_finding_aid: Hulp bij inventaris
+      digital_object_related_accessions: Hulp bij gerelateerde toegang
+      digital_object_linked_agents: Hulp bij Agent Links
+      digital_object_subjects: Hulp bij onderwerpen
+      digital_object_notes: Hulp bij notities
+      digital_object_external_documents: Hulp bij externe documenten
+      digital_object_rights_statements: Hulp bij rechtenverklaringen
+      digital_object_instances: Hulp bij gevallen
+      digital_object_deaccessions: Hulp bij afstotingen
+      digital_object_collection_management: Hulp bij collectiemanagement
+      digital_object_classification: Hulp bij classificaties
+      digital_object_user_defined: Hulp bij door gebruiker gedefinieerde
+      # Digital Object Component help tooltips
+      digital_object_component: Hulp bij digitale objectcomponenten
+      digital_object_component_basic_information: Hulp bij basisinformatie
+      digital_object_component_dates: Hulp bij gegevens
+      digital_object_component_extents: Hulp bij omvang
+      digital_object_component_finding_aid: Hulp bij inventaris
+      digital_object_component_related_accessions: Hulp bij gerelateerde toegang
+      digital_object_component_linked_agents: Hulp bij Agent Links
+      digital_object_component_subjects: Hulp bij onderwerpen
+      digital_object_component_notes: Hulp bij notities
+      digital_object_component_external_documents: Hulp bij externe documenten
+      digital_object_component_rights_statements: Hulp bij rechtenverklaringen
+      digital_object_component_instances: Hulp bij gevallen
+      digital_object_component_deaccessions: Hulp bij afstotingen
+      digital_object_component_collection_management: Hulp bij collectiemanagement
+      digital_object_component_classification: Hulp bij classificaties
+      digital_object_component_user_defined: Hulp bij door gebruiker gedefinieerde
+      # Subjects
+      subject: Hulp bij onderwerpen
+      subject_basic_information: Hulp bij basisinformatie
+      subject_terms: Hulp bij termen en onderverdelingen
+      subject_external_documents: Hulp bij externe documenten
+      # Agent Persons
+      agent_person: Hulp bij personen (Agent)
+      agent_person_dates_of_existence: Hulp bij data van existentie
+      agent_person_names: Hulp bij namen
+      agent_person_contact_details: Hulp bij contactgegevens
+      agent_person_notes: Hulp bij notities
+      agent_person_related_agents: Hulp bij gerelateerde agenten
+      agent_person_external_documents: Hulp bij externe documenten
+      # Agent Family
+      agent_family: Hulp bij familie (Agent)
+      agent_family_dates_of_existence: Hulp bij data van existentie
+      agent_family_names: Hulp bij namen
+      agent_family_contact_details: Hulp bij contactgegevens
+      agent_family_notes: Hulp bij notities
+      agent_family_related_agents: Hulp bij gerelateerde agenten
+      agent_family_external_documents: Hulp bij externe documenten
+      # Agent Corporate Entity
+      agent_corporate_entity: Hulp bij Corporate entiteit (Agent)
+      agent_corporate_entity_dates_of_existence: Hulp bij data van existentie
+      agent_corporate_entity_names: Hulp bij namen
+      agent_corporate_entity_contact_details: Hulp bij contactgegevens
+      agent_corporate_entity_notes: Hulp bij notities
+      agent_corporate_entity_related_agents: Hulp bij gerelateerde agenten
+      agent_corporate_entity_external_documents: Hulp bij externe documenten
+      # Agent Software
+      agent_software: Hulp bij Software (Agent)
+      agent_software_dates_of_existence: Hulp bij data van existentie
+      agent_software_names: Hulp bij namen
+      agent_software_contact_details: Hulp bij contactgegevens
+      agent_software_notes: Hulp bij notities
+      agent_software_related_agents: Hulp bij gerelateerde agenten
+      agent_software_external_documents: Hulp bij externe documenten
+      # Location
+      location: Hulp bij locaties
+      # Event
+      event: Hulp bij Events
+      event_basic_information: Hulp bij basisinformatie
+      event_date: Hulp bij Event Date/Time
+      event_linked_agents: Hulp bij Agent Links
+      event_linked_records: Hulp bij Record Links
+      # Classification
+      classification: Hulp bij classificaties
+      classification_term: Hulp bij classificaties
+      # Import
+      import: Hulp bij Importeren van gegevens
+      # Search
+      search: Hulp bij Zoeken en Bladeren
+      # Manage Groups
+      repository_groups: Hulp bij managen van groepen
+      # Manage User Access
+      repository_users: Hulp bij opdracht gebruikersgroep
+      # Repositories
+      repository: Hulp bij managen van bewaarplaatsen
+      # Manage Users
+      user: Hulp bij Managing Users
+      # Controlled Value Lists
+      enumeration: Hulp bij gereguleerde waardenlijsten

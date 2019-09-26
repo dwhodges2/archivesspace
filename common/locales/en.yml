@@ -1895,11 +1895,11 @@ en:
     defaults: Defaults
     global: Global Preference Defaults
     global_message: Edit these values to set system-wide user preference defaults. These values can be overridden by repository defaults or a user's own preferences.
-    repo: User Preference Defaults
+    repo: Repository Preferences
     repo_message: Edit these values to set user preference defaults for the current repository. These values can be overridden by a user's own preferences.
     user_global: Global Preferences
     user_global_message: Edit these values to set your system-wide user preferences. These values can be overridden by repository defaults or by your own preferences for a repository.
-    user_repo: Repository Preferences
+    user_repo: User Preference Defaults
     user_repo_message: Edit these values to set your user preferences for this repository. These values cannot be overridden.
     _singular: Preferences
     _plural: Preferences
@@ -1912,6 +1912,11 @@ en:
     publish_tooltip: Whether to publish new records by default.
     default_values: Pre-populate Records?
     default_values_tooltip: Whether to pre-populate new Accession and Resource records with default values.
+    locale: Locale Selection
+    locale_en: English
+    locale_fr: French
+    locale_ja: Japanese
+    locale_es: Spanish
     accession_browse_section: Accession Browse Columns
     accession_browse_column_1: Column 1
     accession_browse_column_1_tooltip: The field to show in column 1.

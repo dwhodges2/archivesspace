@@ -207,7 +207,7 @@ nl:
 
 
   search_sorting:
-sort_by: "Sorteer op:"
+    sort_by: "Sorteer op:"
     and: "en:"
     asc: Oplopend
     desc: Aflopend
@@ -1303,7 +1303,7 @@ sort_by: "Sorteer op:"
       messages:
         created: locatieprofiel gecreëerd 
         updated: locatieprofiel bijgewerkt
-       fields_required_for_calculator: Merk op dat de dimensionale eenheden diepte, hoogte en breedte allemaal vereist zijn voor de ruimte calculator. Locaties worden weggelaten uit de resultaten als een van deze waarden ontbreekt.
+        fields_required_for_calculator: Merk op dat de dimensionale eenheden diepte, hoogte en breedte allemaal vereist zijn voor de ruimte calculator. Locaties worden weggelaten uit de resultaten als een van deze waarden ontbreekt.
       section:
         basic_information: basisinformatie
     naam: naam

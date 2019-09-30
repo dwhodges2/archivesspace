@@ -231,7 +231,7 @@ nl:
   errors:
     error_404: "%{type} Gegevens niet gevonden"
     error_404_message: "Het %{type} gegeven dat u probeert te benaderen bestaat niet of kan zijn verwijderd."
-    backend_down:Niet mogelijk om te verbinden met database
+    backend_down: Niet mogelijk om te verbinden met database
     backend_down_message: ArchivesSpace ondervindt momenteel technische problemen. Onze excuses voor het ongemak. Probeert u het later a.u.b. nog eens.
     unexpected_error: Aan uw verzoek kon niet worden voldaan vanwege een onverwachte fout
 
@@ -1806,7 +1806,7 @@ nl:
       VU: Vanuatu
       VE: Venezuela
       VN: Vietnam
-      VG  Britse Maagdeneilanden
+      VG: Britse Maagdeneilanden
       VI: Amerikaanse Maagdeneilanden
       WF: Wallis en Futuna
       EH: Westerse Sahara
@@ -1940,7 +1940,7 @@ nl:
       arrivals: Aankomsten
       shared: Gedeeld
 
- enumeration_names:
+  enumeration_names:
     accession_acquisition_type: Toetreding acquisitiesoort
     accession_parts_relator: toegang onderdelen relator
     accession_parts_relator_type: toegang onderdelen relatortype
@@ -2039,7 +2039,7 @@ nl:
     see_less: Zie minder
 
   skipnav:
-     main_content: Ga naar hoofdinhoud
+    main_content: Ga naar hoofdinhoud
     sidebar: Ga naar werkbalk
     search: Ga naar zoeken
     search_results: Ga naar zoekresultaten

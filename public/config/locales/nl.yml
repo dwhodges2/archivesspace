@@ -74,12 +74,12 @@ nl:
       name: Voer a.u.b. uw naam in
       email: Voer a.u.b. een geldig e-mailadres in
     email:
-      subject: " Verzoekt omtrent %{title }"
+      subject: " Verzoekt omtrent %{title}"
 
   search-button:
     label: Zoeken
-  search-limit: "Beperken tot %{limiet}"
-  search-limiting: "beperkt tot %{limiet}"
+  search-limit: "Beperken tot %{limit}"
+  search-limiting: "beperkt tot %{limit}"
   search-limits:
     all: alle gegevenstypen
     repository: bewaarplaats
@@ -182,7 +182,7 @@ nl:
       years_include: Jaren om mee te nemen
       year_now: Nu
       year_begin: het begin
-      from_to: "Jaren: %{begin} tot %{eind}"
+      from_to: "Jaren: %{begin} tot %{end}"
       child_container_u_sstr: Kind container
       grand_child_container_u_sstr: Kleinkind container
       type_enum_s: Type
@@ -2026,7 +2026,7 @@ nl:
     controlled_access_headings: Beheerde toegangsrubrieken
     finding_aid_date_prefix: Deze inventaris is geproduceerd met behulp van ArchivesSpace op
     finding_aid_written_in: Inventaris geschreven in
-    your_finding_aid_pdf: Uw inventaris PDF voor "%{titel}"
+    your_finding_aid_pdf: Uw inventaris PDF voor "%{title}"
     your_finding_aid_is_attached: De door u gevraagde inventaris is bijgevoegd.
     submit: Stuur mij een PDF
     description: Om een PDF versie van deze collectie te ontvangen, gelieve hieronder uw e-mailadres op te geven.

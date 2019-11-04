@@ -2,6 +2,7 @@ class ArchivesSpaceService < Sinatra::Base
 
   Endpoint.post('/agents/families')
     .description("Create a family agent")
+    .documentation("Add a new agent of the family sort to the system.")
     .params(["agent", JSONModel(:agent_family), "The record to create", :body => true])
     .permissions([:update_agent_record])
     .returns([200, :created],

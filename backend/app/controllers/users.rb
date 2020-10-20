@@ -6,7 +6,7 @@ class ArchivesSpaceService < Sinatra::Base
 
 
   Endpoint.post('/users')
-    .description("Create a local user")
+    .description("Create a user")
     .params(["password", String, "The user's password"],
             ["groups", [String], "Array of groups URIs to assign the user to", :optional => true],
             ["user", JSONModel(:user), "The record to create", :body => true])
@@ -41,6 +41,14 @@ class ArchivesSpaceService < Sinatra::Base
 
   Endpoint.get('/users')
     .description("Get a list of users")
+    .example('python') do
+      <<~PYTHON
+        from asnake.aspace import ASpace
+        aspace = ASpace()
+        users = [(u.uri, u.username) for u in aspace.users()]
+        # return tuples of user data.
+      PYTHON
+    end
     .params()
     .paginated(true)
     .permissions([])
@@ -52,6 +60,13 @@ class ArchivesSpaceService < Sinatra::Base
 
   Endpoint.get('/users/current-user')
     .description("Get the currently logged in user")
+    .example('python') do
+      <<~PYTHON
+        from asnake.aspace import ASpace
+        aspace = ASpace()
+        current_user = aspace.users.current_user
+      PYTHON
+    end
     .params()
     .permissions([])
     .returns([200, "(:user)"],
@@ -69,6 +84,14 @@ class ArchivesSpaceService < Sinatra::Base
 
   Endpoint.get('/users/complete')
     .description("Get a list of system users")
+    .example('python') do
+      <<~PYTHON
+        from asnake.client import ASnakeClient
+        client = ASnakeClient()
+        users = client.get("/users/complete", params={"query": "test"}).json()
+        # return list of usernames that contain query prefix.
+      PYTHON
+    end
     .params(["query", String, "A prefix to search for"])
     .permissions([])
     .returns([200, "A list of usernames"]) \
@@ -79,8 +102,17 @@ class ArchivesSpaceService < Sinatra::Base
   end
 
 
+
+
   Endpoint.get('/users/:id')
     .description("Get a user's details (including their current permissions)")
+    .example('python') do
+      <<~PYTHON
+        from asnake.aspace import ASpace
+        aspace = ASpace()
+        a_user = aspace.users(1)
+      PYTHON
+    end
     .params(["id", Integer, "The username id to fetch"])
     .permissions([:manage_users])
     .returns([200, "(:user)"]) \
@@ -135,6 +167,19 @@ class ArchivesSpaceService < Sinatra::Base
 
   Endpoint.post('/users/:id')
     .description("Update a user's account")
+    .example('python') do
+      <<~PYTHON
+        from asnake.aspace import ASpace
+        aspace = ASpace()
+        a_user = aspace.users(1)
+        updated_user_json = a_user.json()
+        # update some values
+        updated_user_json["name"] = "Testy McTestFace"
+        updated_user_json["is_admin"] = False
+        # post update
+        response = aspace.client.post(a_user.uri, json=updated_user_json)
+      PYTHON
+    end
     .params(["id", :id],
             ["password", String, "The user's password", :optional => true],
             ["user", JSONModel(:user), "The updated record", :body => true])
@@ -219,7 +264,7 @@ class ArchivesSpaceService < Sinatra::Base
 
   Endpoint.get('/repositories/:repo_id/users/:id')
   .description("Get a user's details including their groups for the current repository")
-  .params(["id", Integer, "The username id to fetch"],
+  .params(["id", Integer, "The user id to fetch"],
           ["repo_id", :repo_id])
   .permissions([:manage_repository])
   .returns([200, "(:user)"]) \
@@ -242,6 +287,13 @@ class ArchivesSpaceService < Sinatra::Base
 
   Endpoint.delete('/users/:id')
     .description("Delete a user")
+    .example('python') do
+      <<~PYTHON
+        from asnake.aspace import ASpace
+        aspace = ASpace()
+        delete = aspace.client.delete("users/1")
+      PYTHON
+    end
     .params(["id", Integer, "The user to delete"])
     .permissions([:manage_users])
     .returns([200, :deleted]) \
